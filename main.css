@@ -1,1 +1,25 @@
 /* ADD YOUR STYLES HERE */
+/*-------------Horizontally Spaced----------------*/
+
+.box > *{ 
+	padding-left: 20px;
+	padding-right: 20px;
+	display: inline-block;
+}
+
+/*---------------Vertically Spaced---------------*/
+.vertical{
+	padding-bottom: 50px;
+	padding-top: 50px;
+	display: inline-block;
+}
+
+/*------------------Horizontal List----------------*/
+
+.horizontal li { 
+	display: inline-block;
+}
+
+
+/*----------------Buttons----------------------*/
+
