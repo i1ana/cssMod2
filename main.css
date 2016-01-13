@@ -18,8 +18,74 @@
 
 .horizontal li { 
 	display: inline-block;
+	margin: 0; 
 }
-
 
 /*----------------Buttons----------------------*/
 
+.button{
+	border-radius: 6px;
+	background-color: #e76f7d;
+	color: white;
+	display: inline-block;
+	vertical-align: middle; 
+	text-align: center;
+	text-decoration: none; 
+}
+
+.large { 
+	font-size: 24px; 
+	height: 70px; 
+	width: 250px;
+	line-height: 70px; 
+
+}
+
+.med {
+	font-size: 16px; 
+	height: 40px;
+	width: 175px;
+	line-height: 40px;
+	border: none;
+}
+
+.small {
+	font-size: 14px;
+	height: 30px;
+	width: 45px; 
+	line-height: 30px; 
+}
+
+.ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0; 
+	float: left;
+	overflow: hidden; 
+	height: 40px; 
+	width: 600px;
+}
+
+.li > a{ 
+	float: left; 
+	display: block;
+	padding: 14px 35px;
+	text-decoration: none; 
+	color: white;
+}
+
+/*---------------Pagination-------------------*/
+
+.pagination{ 
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+}
+
+.numstlye{
+	color: #e76f7d;
+	vertical-align: middle; 
+	text-align: center;
+	text-decoration: underline;
+
+}
